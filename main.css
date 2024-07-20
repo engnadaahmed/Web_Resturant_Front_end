@@ -1,0 +1,339 @@
+*{
+padding:0px;
+margin:0px;
+
+}
+.navbar-light .navbar-nav .active>.nav-link{
+ color:#ae8648;    
+}
+.navbar-light .navbar-nav .nav-link {
+    
+  color:black;
+  transition: all .5s linear;  
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color:#ae8648;
+border-bottom:1px solid #ae8648;   
+}
+.btn{
+ border: 1px solid #ae8648;
+ background-color: #ae8648;
+ color: white;
+ transition: all .5s linear;   
+}
+.btn:hover{
+  background-color: white;
+  color:#ae8648; 
+   border: 1px solid #ae8648; 
+}
+.form-control:focus{
+ box-shadow: none;
+ border:1px solid #ae8648;   
+    
+}
+ .bg-light   {
+   background-color: #ffa50014!important; 
+}
+
+
+nav img{
+  border-radius: 50%;  
+}
+.mr-auto, .mx-auto{
+   margin-left: auto;
+   margin-right:0px!important; 
+}
+.navbar-brand{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    
+}
+.carousel-caption a{
+  color: white;
+   background-color: orange;
+   display: inline-block;
+   width: 40%;
+   font-size: 30px;
+    padding: 2%;
+    transition:background .5s linear;
+} 
+
+.carousel-caption a:hover{
+   color: orange;
+   text-decoration: none; 
+   background-color: white;
+   border: 1px solid orange;
+
+}
+.carousel-caption h5{
+    font-size:170px;
+    font-family: 'Great Vibes', cursive;
+}
+.carousel-caption p{
+    font-size: 30px;
+}
+.carousel-caption{
+   bottom: 126px; 
+}
+/*start about*/
+.about h1{
+    font-size:116px;
+    font-family: 'Great Vibes', cursive; 
+    color: orange;
+}
+.about{
+  margin-top: 5%;  
+}
+.about .story{
+   font-size: 26px;
+    
+}
+/*start services*/
+.services {
+  margin-top: 5%;
+  margin-bottom: 10%;  
+}
+.services h2{
+     font-size:116px;
+    font-family: 'Great Vibes', cursive; 
+    color: orange;
+}
+.services .story{
+    color: orange;
+font-size: 20px;
+}
+.services a{
+    color: #f5e9dcfa;
+    font-size: 35px;
+}
+.services p{
+   font-size: 19px; 
+}
+.menue{
+  margin-top: 5%;  
+}
+/*start plate*/
+.plate{
+  margin-top: 5%;
+  
+    
+}
+.plate .price ,h3{
+   color: orange;
+    font-size: 30px;
+   font-family: 'Architects Daughter', cursive;
+}
+
+.plate h4{
+     font-size:116px;
+    font-family: 'Great Vibes', cursive; 
+    color: orange;
+    padding: 5% 0%;
+}
+.plate .col-md-3{
+  padding: 0%;  
+}
+.plate .a{
+  margin: 5% 0%;
+  
+    
+}
+.plate .our{
+
+  font-size: 25px;  
+}
+.plate .row{
+  margin-top: 4%;
+   background-color: #dcdcdc1a; 
+    
+}
+
+/*start footer*/
+.footer .row{
+  margin: 0%;  
+}
+
+.footer .col-md-6 ,.world{
+  font-size: 20px;  
+}
+
+.footer {
+  margin-top: 5%;
+  background-image: url(image/11cf5c32211247.5673acd6efde0.jpg);
+   background-size: cover; 
+  height:700px;  
+   background-repeat: no-repeat;
+    width: 100%;
+   position: relative; 
+}
+.footer .overlay{
+   background-color: rgba(0,0,0,0.8) ;
+   position: absolute;
+   width: 100%; 
+    height: 700px;
+   top:0px; 
+}
+.head{
+  position: absolute;
+   z-index: 2;
+   color: #f5e9dc9e;
+   top: 50%;
+    transform: translateY(-50%);
+    
+}
+.head i{
+  font-size: 30px;
+   margin-right: 1%; 
+}
+.head .icon{
+  color:#ff8d0078;
+   display: inline-block;
+  margin-right: 0%;  
+}
+.head .agency{
+  font-size: 30px;  
+}
+.footer .img-thumbnail {
+  background-color:#6c757d24;   
+}
+.footer .photo-1 ,.photo{
+  display: flex;  
+}
+.footer .photo{
+  margin-top: 1%;  
+}
+
+.footer .col-md-12{
+  padding: 0%;  
+}
+.footer .f{
+  padding: 0% 1%;  
+}
+/*start chife*/
+.chife{
+    margin-top: 5%;
+}
+.chife h6{
+      font-size:116px;
+    font-family: 'Great Vibes', cursive; 
+    color: orange;
+    padding: 5% 0%;
+}
+.chife img{
+  border-radius: 5%;  
+}
+.chife .owner{
+   color: gainsboro;
+ 
+}
+.chife a{
+  color:#ff6e076b ;  
+}
+.chife .information{
+   text-align: left;
+   margin-top: 5%;
+    
+}
+.information p{
+   margin-bottom: 0%; 
+}
+.chife .row{
+  margin-top: 5%;  
+}
+/*end chif*/
+/*start book*/
+.booking h6{
+  font-size:116px;
+    font-family: 'Great Vibes', cursive; 
+    color: orange;
+    padding-top: 4%;
+}
+.book input{
+   border: none;
+   border-bottom: 1px solid orange; 
+   outline: none;
+   background: none;
+    padding: 5%;
+}
+.book{
+  border-radius: 5%;
+  border:1px solid orange;
+   margin-left: 7%;
+   background-color: white;
+
+}
+.booking .row{
+ margin: 0%;
+  margin-top: 5%;  
+    
+}
+.book a{
+  font-size: 26px;
+  
+}
+.button{
+  color: white;
+   background-color: orange;
+   border: 1px solid orange;
+   width: 70%; 
+   padding: 3%;
+   margin: 4%; 
+    display: inline-block;
+   transition:background .5s linear;
+    
+
+}
+.button:hover{
+  color: orange;
+  background-color: white;
+  
+  text-decoration: none;  
+    
+}
+.book .d{
+   padding-right: 2%; 
+}
+.booking{
+  margin-top: 5%;
+  background-color:#dcdcdc1a;   
+    
+}
+.copy{
+  margin-top: 3%;  
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
